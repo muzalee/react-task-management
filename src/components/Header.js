@@ -8,7 +8,7 @@ const Header = () => {
               <div className="mr-3">
                 <img src={logo} alt="logo" className='w-12' />
               </div>
-              <div className="hidden h-6 text-2xl font-semibold sm:block text-gray-200">
+              <div className="hidden h-6 text-2xl font-semibold sm:block text-primary">
                 React Task Management
               </div>
             </div>
