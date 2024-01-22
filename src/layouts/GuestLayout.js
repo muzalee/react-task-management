@@ -5,8 +5,8 @@ function GuestLayout({ children }) {
     return (
     <div className="flex h-screen flex-col justify-between">
         <Header />
-      { children }
-      <Footer />
+        { children }
+        <Footer />
     </div>
   );
 }
