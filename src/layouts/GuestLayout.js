@@ -3,11 +3,11 @@ import Header from "../components/Header";
 
 function GuestLayout({ children }) {
     return (
-    <>
-      <Header />
+    <div className="flex h-screen flex-col justify-between">
+        <Header />
       { children }
       <Footer />
-    </>
+    </div>
   );
 }
 
